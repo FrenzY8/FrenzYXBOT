@@ -16,11 +16,15 @@
 
 ## Dont Forget To
 
-```Subscribe : FrenzY8, Benny Hidayat !!
+Subscribe : FrenzY8, Benny Hidayat !!
 > 085283200715
 > @kenajaga.exe
 > FrenzY8
 
+## Support :
+
+>> Benny Hidayat
+>> FrenzY8
 
 ## Clone this project :
 
