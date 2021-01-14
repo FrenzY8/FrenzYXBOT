@@ -5,7 +5,7 @@
 <a href="#"><img title="FrenzY8" src="https://img.shields.io/badge/FrenzY8 MODS-green?colorA=%23ff0000&colorB=%23017e40&style=for-the-badge"></a>
 </p>
 <p align="center">
-<a href="https://github.com/FrenzY8"><img title="Author" src="https://img.shields.io/badge/Author-FrenzY8-red.svg?style=for-the-badge&logo=github"></a>
+<a href="https://github.com/FrenzY8"><img title="CREATOR :" src="https://img.shields.io/badge/Author-FrenzY8-red.svg?style=for-the-badge&logo=github"></a>
 </p>
 <p align="center">
 <a href="https://github.com/bennyganteng/followers"><img title="Followers" src="https://img.shields.io/github/followers/mhankbarbar?color=blue&style=flat-square"></a>
@@ -30,7 +30,7 @@ You Need Node JS V14.0.0
 ```
 
 ### Usage
-Before running this script, first edit [`THIS`](https://github.com/bennyganteng/bennybotwa/blob/master/bennymsg.js#L69) section with your WhatsApp number, remember your WhatsApp number!  Not a bot number, then
+
 ```bash
 > npm start
 ```
