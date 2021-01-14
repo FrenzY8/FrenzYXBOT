@@ -8,7 +8,7 @@
 <a href="https://github.com/FrenzY8"><img title="CREATOR :" src="https://img.shields.io/badge/Author-FrenzY8-red.svg?style=for-the-badge&logo=github"></a>
 </p>
 <p align="center">
-<a href="https://github.com/bennyganteng/followers"><img title="Followers" src="https://img.shields.io/github/followers/mhankbarbar?color=blue&style=flat-square"></a>
+<a href="https://github.com/ArugaZ/followers"><img title="Followers" src="https://img.shields.io/github/followers/mhankbarbar?color=blue&style=flat-square"></a>
 <a href="https://github.com/bennyganteng/bennybotwa/stargazers/"><img title="Stars" src="https://img.shields.io/github/stars/bennyganteng/bennybotwa?color=red&style=flat-square"></a>
 <a href="https://github.com/bennyganteng/bennybotwa/network/members"><img title="Forks" src="https://img.shields.io/github/forks/FrenzY8/iFrenzY-X-BENNY?color=red&style=flat-square"></a>
 <a href="https://github.com/FrenzY8/iFrenzY-X-BENNY"><img title="Watching" src="https://img.shields.io/github/watchers/mhankbarbar/whatsapp-bot?label=Watchers&color=blue&style=flat-square"></a>
