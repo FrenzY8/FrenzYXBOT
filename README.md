@@ -14,12 +14,19 @@
 <a href="https://github.com/FrenzY8/iFrenzY-X-BENNY"><img title="Watching" src="https://img.shields.io/github/watchers/mhankbarbar/whatsapp-bot?label=Watchers&color=blue&style=flat-square"></a>
 </p>
 
+## Get My Contact !! :
+
+* [`Whatsapp`](wa.me/6285283200715)
+* [`Instagram`](https://instagram.com/kenajaga.exe)
+* [`GitHUB`](https://github.com/FrenzY8)
+* [`YouTube`](https://youtube.com/c/FrenzY8)
+* [`BennYoutube`](https://youtube.com/c/bennyhidayat)
+
+
 ## Dont Forget To
 
-Subscribe : FrenzY8, Benny Hidayat !!
-> 085283200715
-> @kenajaga.exe
-> FrenzY8
+* [`Subscribe`](https://youtube.com/c/FrenzY8)
+* [`Subscribe`](https://youtube.com/c/bennyhidayat)
 
 ## Support :
 
