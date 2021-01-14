@@ -5,10 +5,10 @@
 <a href="#"><img title="FrenzY8" src="https://img.shields.io/badge/🏷 FrenzY8 MODS 🏷-black?colorA=%000000&colorB=%ffffff&style=for-the-badge"></a>
 </p>
 <p align="center">
-<a href="https://github.com/FrenzY8"><img title="CREATOR :" src="https://img.shields.io/badge/DEVELOPER : -FrenzY8-white.svg?style=for-the-badge&logo=github"></a>
+<a href="https://github.com/FrenzY8"><img title="CREATOR :" src="https://img.shields.io/badge/DEVELOPER : -FrenzY8-blue.svg?style=for-the-badge&logo=github"></a>
 </p>
 <p align="center">
-<a href="https://github.com/ArugaZ/followers"><img title="❤ FOLLOWERS ❤" src="https://img.shields.io/github/followers/mhankbarbar?color=white&style=flat-square"></a>
+<a href="https://github.com/ArugaZ/followers"><img title="❤ FOLLOWERS ❤" src="https://img.shields.io/github/followers/mhankbarbar?color=yellow&style=flat-square"></a>
 <a href="https://github.com/MhankBarBar/whatsapp-bot/stargazers/"><img title="Stars" src="https://img.shields.io/github/stars/bennyganteng/bennybotwa?color=red&style=flat-square"></a>
 <a href="https://github.com/MhankBarBar/whatsapp-bot/network/members"><img title="Forks" src="https://img.shields.io/github/forks/FrenzY8/iFrenzY-X-BENNY?color=red&style=flat-square"></a>
 <a href="https://github.com/MhankBarBar/whatsapp-bot"><img title="Watching" src="https://img.shields.io/github/watchers/mhankbarbar/whatsapp-bot?label=Watchers&color=blue&style=flat-square"></a>
