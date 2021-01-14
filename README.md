@@ -14,7 +14,15 @@
 <a href="https://github.com/FrenzY8/iFrenzY-X-BENNY"><img title="Watching" src="https://img.shields.io/github/watchers/mhankbarbar/whatsapp-bot?label=Watchers&color=blue&style=flat-square"></a>
 </p>
 
-## Clone this project
+## Dont Forget To
+
+```Subscribe : FrenzY8, Benny Hidayat !!
+> 085283200715
+> @kenajaga.exe
+> FrenzY8
+
+
+## Clone this project :
 
 ```bash
 > git clone https://github.com/bennyganteng/iFrenzY-X-BENNY.git
@@ -140,4 +148,4 @@ Fix Stuck on linux, install google chrome stable:
 * [`MhankBarBar/whatsapp-bot`](https://github.com/MhankBarBar/whatsapp-bot)
 
 ### Donate
-* [`Ssubscribe`](https://youtube.com/c/bennyhidayat)
+* [`Ssubscribe`](https://youtube.com/c/FrenzY8)
