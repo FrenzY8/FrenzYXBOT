@@ -37,11 +37,6 @@
 * [`Subscribe`](https://youtube.com/c/FrenzY8)
 * [`Subscribe`](https://youtube.com/c/bennyhidayat)
 
-## Support :
-
->> Benny Hidayat
->> FrenzY8
-
 ## Clone this project :
 
 ```bash
