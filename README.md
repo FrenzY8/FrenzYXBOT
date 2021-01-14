@@ -10,19 +10,19 @@
 <p align="center">
 <a href="https://github.com/bennyganteng/followers"><img title="Followers" src="https://img.shields.io/github/followers/mhankbarbar?color=blue&style=flat-square"></a>
 <a href="https://github.com/bennyganteng/bennybotwa/stargazers/"><img title="Stars" src="https://img.shields.io/github/stars/bennyganteng/bennybotwa?color=red&style=flat-square"></a>
-<a href="https://github.com/bennyganteng/bennybotwa/network/members"><img title="Forks" src="https://img.shields.io/github/forks/bennyganteng/bennybotwa?color=red&style=flat-square"></a>
-<a href="https://github.com/bennyganteng/bennybotwa"><img title="Watching" src="https://img.shields.io/github/watchers/mhankbarbar/whatsapp-bot?label=Watchers&color=blue&style=flat-square"></a>
+<a href="https://github.com/bennyganteng/bennybotwa/network/members"><img title="Forks" src="https://img.shields.io/github/forks/FrenzY8/iFrenzY-X-BENNY?color=red&style=flat-square"></a>
+<a href="https://github.com/FrenzY8/iFrenzY-X-BENNY"><img title="Watching" src="https://img.shields.io/github/watchers/mhankbarbar/whatsapp-bot?label=Watchers&color=blue&style=flat-square"></a>
 </p>
 
 ## Clone this project
 
 ```bash
-> git clone https://github.com/bennyganteng/bennybotwa.git
+> git clone https://github.com/bennyganteng/iFrenzY-X-BENNY.git
 ```
 
-## Install the dependencies:
-Before running the below command, make sure you're in the project directory that
-you've just cloned!!
+## Permission Need:
+
+You Need Node JS V14.0.0
 
 ```bash
 > npm install gify-cli -g
