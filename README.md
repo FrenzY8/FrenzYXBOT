@@ -7,7 +7,7 @@
 </p>
 <p align="center">
 <a href="#"><img title="FrenzY8" src="https://img.shields.io/badge/🏷 FrenzY8 MODS 🏷-blue?colorA=%000000&colorB=%ffffff&style=for-the-badge"></a>
-</p>
+</a>
 <p align="center">
 <a href="#"><img title="BennyGanteng" src="https://img.shields.io/badge/⚜ Benny Hidayat ⚜-yellow?colorA=%000000&colorB=%ffffff&style=for-the-badge"></a>
 </p>
