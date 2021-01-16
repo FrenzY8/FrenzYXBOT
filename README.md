@@ -1,4 +1,5 @@
-<a href="https://github.com/ArugaZ"><img title="CREATOR :" src="https://img.shields.io/badge/NO WORK ON : -TERMUX-red.svg?style=for-the-badge&logo=github"></a>
+<a href="https://github.com/FrenzY8"><img title="CREATOR :" src="https://img.shields.io/badge/NO WORK ON : -TERMUX-red.svg?style=for-the-badge&logo=github"></a>
+<a href="https://github.com/FrenzY8"><img title="CREATOR :" src="https://img.shields.io/badge/ONLY ON : -PC/RDP/LAPTOP-blue.svg?style=for-the-badge&logo=github"></a>
 <p align="center">
 </p>
 <p align="center">
