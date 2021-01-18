@@ -1,3 +1,13 @@
+///PESAN///
+
+WOI NJENG KASIH CREDIT YA JANGAN NGGA BERBAKAT GITU! KSIH CREDIT KE OWNER
+KALO MAU COPY YAAA COPY YG BENER DAN JANGAN NGE COPY DOANG PAHAMI NJING
+CREDIT KE : FrenzY8 :)
+DEVELOPERNYA : BENNY
+OK OM YAA SCRIPTNYA GRATIS FULL 2021 INDO HOT BOKEP EH
+KALAU SCRIPTNYA ERROR HAPUS PESAN INI YA OM DAN TARUH
+OPEN WA DECRPYT DI NOMOR 1 OK REGARDSSSSS:)
+
 const { decryptMedia } = require('@open-wa/wa-decrypt')
 const fs = require('fs-extra')
 const axios = require('axios')
@@ -73,8 +83,8 @@ module.exports = bennymsg = async (benny = new Client(), message) => {
 		
 
         const mess = {
-			write: '*[WAIT]* Nama & Nick Anda Sedang Di Masukan Ke DataBase⏳',
-            wait: '[ WAIT ] Sedang di proses⏳ silahkan tunggu sebentar',
+			write: '*[ MENAMBAHKAN! ]* Mohon Menunggu! Nama Dan Nick Anda Sedang Kami Catat ⏳',
+            wait: '*[ BE PATIENT ]* Mohon Menunggu! Permintaan Anda Sedang Kami Proses!',
             error: {
                 St: '[❗] Kirim gambar dengan caption *#sticker* atau tag gambar yang sudah dikirim',
                 Qm: '[❗] Terjadi kesalahan, mungkin themenya tidak tersedia!',
@@ -504,7 +514,7 @@ ${Object.keys(me.phone).map(key => `${key} : ${me.phone[key]}`).join('\n')}`.sli
             if (!isRegistered) return await benny.reply(from, `Maaf *${pushname}!* Kamu Blum Login Di BOT Ini !!\nKamu Bisa Daftar Dengan Cara\n*#daftar <nama lo>*\n\nSetelah Login Kamu Akan Bisa Menikmati Fitur Dari *iFrenzYBOT !!*`, id)
             benny.reply(from, mess.wait, id)
 			const aiquote = await axios.get("http://inspirobot.me/api?generate=true")
-            await benny.sendFileFromUrl(from, aiquote.data, 'quote.jpg', 'Powered By http://inspirobot.me/ With ❤️' , id )
+            await benny.sendFileFromUrl(from, aiquote.data, 'quote.jpg', 'Bad English Ga Akan Paham Dek:) ❤️' , id )
             break
 	case '#quotemaker':
 		if (isBanned) return await benny.reply(from, `Maaf ${pushname}, Nomor kamu telah dibanned!`, id)
@@ -659,7 +669,7 @@ ${Object.keys(me.phone).map(key => `${key} : ${me.phone[key]}`).join('\n')}`.sli
 			if (args.length === 1) return benny.reply(from, 'Teksnya mana??', id)
 			benny.reply(from, mess.wait, id)
 			const textnyo = body.slice(8)
-			const bpnya = `http://docs-jojo.herokuapp.com/api/blackpink?text=${textnyo}`
+			const bpnya = `http://docs-jojo.herokuapp.com/api/hubpink?text=${textnyo}`
 			benny.sendFileFromUrl(from, bpnya, '', 'Anjay Keren Kali Bah\n\Tambah Keren Kalo Follow *@kenajaga.exe* <3', id)
             break
 	
@@ -965,7 +975,7 @@ ${Object.keys(me.phone).map(key => `${key} : ${me.phone[key]}`).join('\n')}`.sli
     case '#asupanprem':
 		if (!isPremium) return benny.sendText(from, `Maaf Kamu Bukan User Premium!`)
 		if (!isRegistered) return await benny.reply(from, `Maaf *${pushname}!* Kamu Blum Login Di BOT Ini !!\nKamu Bisa Daftar Dengan Cara\n*#daftar <nama lo>*\n\nSetelah Login Kamu Akan Bisa Menikmati Fitur Dari *iFrenzYBOT !!*`, id)
-            if (args.length === 1) return benny.reply(from, 'Kirim perintah *#join* linkgroup\n\nEx:\n#join https://chat.whatsapp.com/blablablablablabla', id)
+            if (args.length === 1) return benny.reply(from, 'Fitur Itu Sedang Dalam Pengembangan! Maaf Jika Tidak Terespon\n\nBOT Akan Update *V.4.1.0*', id)
             const link = body.slice(6)
             const tGr = await benny.getAllGroups()
             const minMem = 0
@@ -997,7 +1007,7 @@ ${Object.keys(me.phone).map(key => `${key} : ${me.phone[key]}`).join('\n')}`.sli
                benny.sendStickerfromUrl(from, 'https://i.ibb.co/wNnZ4QD/tails.png')
             }
             break					
-	case '#slap':
+	case '#tampar':
 	if (!isRegistered) return await benny.reply(from, `Maaf *${pushname}!* Kamu Blum Login Di BOT Ini !!\nKamu Bisa Daftar Dengan Cara\n*#daftar <nama lo>*\n\nSetelah Login Kamu Akan Bisa Menikmati Fitur Dari *iFrenzYBOT !!*`, id)
 		if (isAfk) return await benny.reply(from, `Maaf ${pushname}, Kamu sedang afk! Ketik #unafk untuk mematikan`, id)
             arg = body.trim().split(' ')
@@ -1005,13 +1015,13 @@ ${Object.keys(me.phone).map(key => `${key} : ${me.phone[key]}`).join('\n')}`.sli
             await benny.sendGiphyAsSticker(from, 'https://media.giphy.com/media/S8507sBJm1598XnsgD/source.gif')
             benny.sendTextWithMentions(from, '@' + person + ' *Telah MenSlap ( Menampar )* ' + arg[1])
             break	
-	case '#hug':
+	case '#peyuk':
 	if (!isRegistered) return await benny.reply(from, `Maaf *${pushname}!* Kamu Blum Login Di BOT Ini !!\nKamu Bisa Daftar Dengan Cara\n*#daftar <nama lo>*\n\nSetelah Login Kamu Akan Bisa Menikmati Fitur Dari *iFrenzYBOT !!*`, id)
 		if (isAfk) return await benny.reply(from, `Maaf ${pushname}, Kamu sedang afk! Ketik #unafk untuk mematikan`, id)
                     arg = body.trim().split(' ')
                     const janjing = author.replace('@c.us', '')
                     await benny.sendGiphyAsSticker(from, 'https://media.giphy.com/media/od5H3PmEG5EVq/giphy.gif')
-                    benny.sendTextWithMentions(from, '@' + janjing + ' *peyuuuk* ' + arg[1])
+                    benny.sendTextWithMentions(from, '@' + janjing + ' *Mau Peyyyuuuukkkk* ' + arg[1])
                     break
                 case '#nye': 
 				if (!isRegistered) return await benny.reply(from, `Maaf *${pushname}!* Kamu Blum Login Di BOT Ini !!\nKamu Bisa Daftar Dengan Cara\n*#daftar <nama lo>*\n\nSetelah Login Kamu Akan Bisa Menikmati Fitur Dari *iFrenzYBOT !!*`, id)
@@ -1019,9 +1029,9 @@ ${Object.keys(me.phone).map(key => `${key} : ${me.phone[key]}`).join('\n')}`.sli
                     arg = body.trim().split('')
                     const jancuk7 = author.replace('@c.us', '')
                     await benny.sendGiphyAsSticker(from, 'https://media.giphy.com/media/cute-baka-13LunYkkBppSBa/giphy.gif')
-                    benny.sendTextWithMentions(from, '@' + jancuk7 + ' *nye nye ' + arg[1])
+                    benny.sendTextWithMentions(from, '@' + jancuk7 + ' *nye  nye nye wekkk nyeeek ' + arg[1])
                     break
-                case '#pat':
+                case '#elus':
 				if (!isRegistered) return await benny.reply(from, `Maaf *${pushname}!* Kamu Blum Login Di BOT Ini !!\nKamu Bisa Daftar Dengan Cara\n*#daftar <nama lo>*\n\nSetelah Login Kamu Akan Bisa Menikmati Fitur Dari *iFrenzYBOT !!*`, id)
 		if (isAfk) return await benny.reply(from, `Maaf ${pushname}, Kamu sedang afk! Ketik #unafk untuk mematikan`, id)
                     arg = body.trim().split(' ')
@@ -1215,7 +1225,7 @@ ${Object.keys(me.phone).map(key => `${key} : ${me.phone[key]}`).join('\n')}`.sli
             let hehe = '' 
             for (let i = 0; i < groupMem.length; i++) {
                 hehe += ''
-                hehe += ` @${groupMem[i].id.replace(/@c.us/g, '')}\n`
+                hehe += `Maaf BOT Membuat Notifikasi!\nSeseorang Menulis *#tagall* @${groupMem[i].id.replace(/@c.us/g, '')}\n`
             }
             hehe += ''
             await sleep(2000)
@@ -2046,7 +2056,7 @@ ${desc}`)
                         const rpmn4 = rate[Math.floor(Math.random() * rate.length)]
                         const rpmn5 = rate[Math.floor(Math.random() * rate.length)]
                         const rpmn6 = rate[Math.floor(Math.random() * rate.length)]
-                        await benny.reply(from, `*Hasil Pengamatan!*\nPasangan dengan nama *${kamu}* dan *${pacar}*\n\n➸ Cinta : ${rpmn}\n➸ Jodoh : ${rpmn2}\n➸ Kemiripan : ${rpmn3}\n➸ Kesukaan : ${rpmn4}\n➸ Kesamaan : ${rpmn5}\n➸ Kebucinan ${rpmn6}\n *Pembantuan! :*\n  Jika Cinta Diatas *60%* Mungkin Kalian Jodoh:>\n SUPPORT BY : *@kenajaga.exe*`, id)
+                        await benny.reply(from, `*Hasil Pengamatan!*\nPasangan dengan nama *${kamu}* dan *${pacar}*\n\n➸ Cinta : ${rpmn}\n➸ Jodoh : ${rpmn2}\n➸ Kemiripan : ${rpmn3}\n➸ Kesukaan : ${rpmn4}\n➸ Kesamaan : ${rpmn5}\n➸ Kebucinan ${rpmn6}\n *Pembantuan! :*\n  Jika Cinta Diatas *60%* Mungkin Kalian Jodoh:>\n SUPPORT BY : *@kenajaga.exe*\n\nJangan Lupa Undang Ya:>`, id)
                     } else {
                         await benny.reply(from, 'Cek Jodoh Tuh Kek Gini\n*#cekjodoh kiki Reemar*\nHarus Ada Nama Ceweknya :)', id)
                     }
@@ -2110,7 +2120,7 @@ ${desc}`)
                         benny.sendImage(from, base64, city, cekip3)
                     } catch (err) {
                         console.error(err.message)
-                        await benny.sendFileFromUrl(from, errorurl2, 'error.png', '💔️ Maaf, User tidak ditemukan')
+                        await benny.sendFileFromUrl(from, errorurl2, 'error.png', '💔️ User Tidak DiTemukan!, Pastikan Masukan IP Dengan Benar\n\nSupport By : iFrenzYSG')
                         benny.sendText(ownerNumber, 'Error Check IP : ' + err)
                     }
                     break
@@ -2140,7 +2150,7 @@ ${desc}`)
                             const textjoox = body.slice(6)
                             const jooxnya = await fetch(`https://tobz-api.herokuapp.com/api/joox?q=${textjoox}&apikey=BotWeA`)
                             const joox = await jooxnya.json()
-                            benny.sendFileFromUrl(from, joox.result.thumb, 'thumb.jpg', `[*JOOX*] \n➸ *Judul* : ${joox.result.judul} \n➸ *Album* : ${joox.result.album} \n➸ *Diupload* : ${joox.result.dipublikasi} \nMohon tunggu sebentar lagu sedang di download`, id)
+                            benny.sendFileFromUrl(from, joox.result.thumb, 'thumb.jpg', `[*JOOX*] \n➸ *Judul* : ${joox.result.judul} \n➸ *Album* : ${joox.result.album} \n➸ *Diupload* : ${joox.result.dipublikasi} \nMohon tunggu sebentar lagu sedang di download\n\nLagu Di Download 2-3 Menit:)`, id)
                             await benny.sendFileFromUrl(from, joox.result.mp3, `${joox.result.judul}`, '', id)
                    break
      case '#ytmp3':
@@ -2211,7 +2221,7 @@ ${desc}`)
 		case '#bot':
 		if (isBanned) return await benny.reply(from, `Maaf, Nomor kamu telah dibanned!`, id)
 		if (!isRegistered) return await benny.reply(from, `Maaf *${pushname}!* Kamu Blum Login Di BOT Ini !!\nKamu Bisa Daftar Dengan Cara\n*#daftar <nama lo>*\n\nSetelah Login Kamu Akan Bisa Menikmati Fitur Dari *iFrenzYBOT !!*`, id)
-		benny.sendLinkWithAutoPreview(from, `https://github.com/bennyganteng/FrenzY8`)
+		benny.sendLinkWithAutoPreview(from, `https://github.com/FrenzY8/iFrenzY-X-BENNY`)
         break
     case '#fotocewe':
     case '#fotocewek':
@@ -2240,7 +2250,7 @@ ${desc}`)
 		  if (mentionedJidList.length === 0) return benny.reply(from, 'Untuk menggunakan Perintah ini, kirim perintah *#ceksange* @tagmember', id)
 		  const groupMemc = await benny.getGroupMembers(groupId)
 		  let prsen = rate[Math.floor(Math.random() * rate.length)]
-		  await benny.reply(from, `Sange Si @${mentionedJidList} adalah ${prsen}`, id)
+		  await benny.reply(from, `Kemungkinan Sange Si *@${mentionedJidList}* adalah *${prsen}*\n\nKalau Diatas 60% Tobat Ya:>`, id)
 		  break
     case '#cuaca':
 	case '#weather':
@@ -2275,6 +2285,7 @@ ${desc}`)
     case '#owner':
 	if (!isRegistered) return await benny.reply(from, `Maaf *${pushname}!* Kamu Blum Login Di BOT Ini !!\nKamu Bisa Daftar Dengan Cara\n*#daftar <nama lo>*\n\nSetelah Login Kamu Akan Bisa Menikmati Fitur Dari *iFrenzYBOT !!*`, id)
             benny.sendContact(from, pilotNumber)
+            benny.reply(from, 'Itu Nomor Owner Ku!\nChat Jika Ada Keperluan\n\nThx `iFrenzYSG', id)
             break
     case '#ig':
 		if (isAfk) return await benny.reply(from, `Maaf ${pushname}, Kamu sedang afk! Ketik #unafk untuk mematikan`, id)
@@ -2289,13 +2300,13 @@ ${desc}`)
 		case '#stalkig':
 		if (isAfk) return await benny.reply(from, `Maaf ${pushname}, Kamu sedang afk! Ketik #unafk untuk mematikan`, id)
 		if (!isRegistered) return await benny.reply(from, `Maaf *${pushname}!* Kamu Blum Login Di BOT Ini !!\nKamu Bisa Daftar Dengan Cara\n*#daftar <nama lo>*\n\nSetelah Login Kamu Akan Bisa Menikmati Fitur Dari *iFrenzYBOT !!*`, id)
-            if (args.length === 1)  return benny.reply(from, 'Kirim perintah *#igStalk @username*\nConntoh *#igStalk @duar_amjay*', id)
+            if (args.length === 1)  return benny.reply(from, 'Kirim perintah *#igStalk kenajaga,exe*\nConntoh *#igStalk kenajaga.exe*', id)
 		   const stalk = await fetch(`https://api-zeks.harispoppy.com/api/igstalk?username=${args[1]}&apikey=apivinz`)
 		   const stlk = await stalk.json()
 		   const profile_pic = stlk.profile_pic
             if (stalk.error) return benny.reply(from, stalk.error, id)
             const caps = `➸ *Nama* : ${stlk.fullname}\n➸ *Username* : ${stlk.username}\n➸ *Jumlah Followers* : ${stlk.follower}\n➸ *Jumlah Following* : ${stlk.following}\n➸ *Biodata* : ${stlk.bio}`
-		await benny.sendFile(from, profile_pic, 'Pict.jpg', `➸ *Nama* : ${stlk.fullname}\n➸ *Username* : ${stlk.username}\n➸ *Jumlah Followers* : ${stlk.follower}\n➸ *Jumlah Following* : ${stlk.following}\n➸ *Biodata* : ${stlk.bio}`, id)
+		await benny.sendFile(from, profile_pic, 'Pict.jpg', `➸ *Nama* : ${stlk.fullname}\n➸ *Username* : ${stlk.username}\n➸ *Jumlah Followers* : ${stlk.follower}\n➸ *Jumlah Following* : ${stlk.following}\n➸ *Biodata* : *${stlk.bio}*\n\n*FOLLOW* *_@kenajaga.exe_* *YAK*`, id)
             break
     case '#infogempa':
 		if (isAfk) return await benny.reply(from, `Maaf ${pushname}, Kamu sedang afk! Ketik #unafk untuk mematikan`, id)
@@ -2503,7 +2514,7 @@ ${desc}`)
 		if (!isRegistered) return await benny.reply(from, `Maaf *${pushname}!* Kamu Blum Login Di BOT Ini !!\nKamu Bisa Daftar Dengan Cara\n*#daftar <nama lo>*\n\nSetelah Login Kamu Akan Bisa Menikmati Fitur Dari *iFrenzYBOT !!*`, id)
             let hih = `This is list of blocked number\nTotal : ${blockNumber.length}\n`
             for (let i of blockNumber) {
-                hih += `➸ @${i.replace(/@c.us/g,'')}\n`
+                hih += `*LIST ORANG ORANG GOBLOK\nYANG MELANGGAR RULES!!➸ @${i.replace(/@c.us/g,'')}\n`
             }
             benny.sendTextWithMentions(from, hih, id)
             break
@@ -2628,8 +2639,9 @@ ${desc}`)
 │+ *Nama* : ${nimi}
 │+ *Nick* : ${pushname}
 │+ *Link NO* : wa.me/${nimir.replace(/[@c.us]/g, '')}
-│+ *STATUS* : Maybe GAY
-│+ *REGION : INDONESIA
+│+ *STATUS* : *Maybe GAY*
+│+ *REGION : INDONESIA*
+│+ *NOMOR USER KE : ${_registered.length} *
 │++
 ╰───────────────────
 Terima kasih telah melakukan registrasi.
@@ -2645,7 +2657,7 @@ Total user terdaftar : ${_registered.length}
             let unreg = _registered.indexOf(sender.id)
                 _registered.splice(unreg, 1)
                 fs.writeFileSync('./ingfo/registered.json', JSON.stringify(_registered))
-                return await benny.reply(from, `${pushname} telah logout dari FrenzYBOT!\nUntuk Daftar Lagi Ketik *#daftar <nama lo>*`, id)
+                return await benny.reply(from, `${pushname} telah logout dari FrenzYBOT!\nUntuk Daftar Lagi Ketik *#daftar <nama lo>\n\n *Daftar Lagi Yah Kalau Engga Daftar Lagi Usernya Berkurang :(*\nJadi : *${_registered.length}*`, id)
             break
     case '#loli':
 	    if (!isRegistered) return await benny.reply(from, `Maaf *${pushname}!* Kamu Blum Login Di BOT Ini !!\nKamu Bisa Daftar Dengan Cara\n*#daftar <nama lo>*\n\nSetelah Login Kamu Akan Bisa Menikmati Fitur Dari *iFrenzYBOT !!*`, id)
@@ -2742,7 +2754,7 @@ Total user terdaftar : ${_registered.length}
 		case '#menu':
 	    if (!isRegistered) return await benny.reply(from, `Maaf *${pushname}!* Kamu Blum Login Di BOT Ini !!\nKamu Bisa Daftar Dengan Cara\n*#daftar <nama lo>*\n\nSetelah Login Kamu Akan Bisa Menikmati Fitur Dari *iFrenzYBOT !!*`, id)
 	      if (isAfk) return await benny.reply(from, `Maaf ${pushname}, Kamu sedang afk! Ketik #unafk untuk mematikan`, id)
- 		  return await benny.reply(from, `Hi *${pushname}👋🏻* \n*Tanggal dan Waktu* : ${time}\n\n*JUMLAH USER FrenzYBOT* : *_${_registered.length}_*\n\n*${pushname}!* Mungkin Dari *${_registered.length}* User, Lo Yg Paling *Gay*\n\n*COVID - 19 DETIK DUNIA*\n${kopit}\n${help}\n\n*JUMLAH FEATURES : 114*`, id)
+ 		  return await benny.reply(from, `Hi *${pushname}👋🏻* \n*Tanggal dan Waktu* : ${time}\n\n*JUMLAH USER FrenzYBOT* : *_${_registered.length}_*\n\n*${pushname}!* Mungkin Dari *${_registered.length}* User, Lo Yg Paling *Gay*\n\n*COVID - 19 DETIK DUNIA*\n${kopit}\n${help}\n\n*JUMLAH FEATURES : 115 ++*`, id)
             break
 	case '#menuowner':
 	    if (!isRegistered) return await benny.reply(from, `Maaf *${pushname}!* Kamu Blum Login Di BOT Ini !!\nKamu Bisa Daftar Dengan Cara\n*#daftar <nama lo>*\n\nSetelah Login Kamu Akan Bisa Menikmati Fitur Dari *iFrenzYBOT !!*`, id)
@@ -2836,14 +2848,19 @@ Total user premium : ${_premium.length}
                 fs.writeFileSync('./ingfo/premium.json', JSON.stringify(_premium))
                 return await benny.reply(from, `${pushname} telah keluar dari premium user!`, id)
             break
-   case '#loveyou':
+   case '#loveyouu':
    if (isAfk) return await benny.reply(from, `Maaf ${pushname}, Kamu sedang afk! Ketik #unafk untuk mematikan`, id)
-   return await benny.reply(from, `LoveYou Too >//<`, id)
+   return await benny.reply(from, `*${pushname}*\nLoveYou Too >//<`, id)
+   break
+            break
+   case '#iri':
+   if (isAfk) return await benny.reply(from, `Maaf ${pushname}, Kamu sedang afk! Ketik #unafk untuk mematikan`, id)
+   return await benny.reply(from, `*Bilang Bos Hahay*`, id)
    break
    case '#info':
    if (isAfk) return await benny.reply(from, `Maaf ${pushname}, Kamu sedang afk! Ketik #unafk untuk mematikan`, id)
 		if (!isRegistered) return await benny.reply(from, `Maaf *${pushname}!* Kamu Blum Login Di BOT Ini !!\nKamu Bisa Daftar Dengan Cara\n*#daftar <nama lo>*\n\nSetelah Login Kamu Akan Bisa Menikmati Fitur Dari *iFrenzYBOT !!*`, id)
-            benny.sendLinkWithAutoPreview(from, 'https://github.com/FrenzY8', info)
+            benny.sendLinkWithAutoPreview(from, 'https://github.com/FrenzY8/iFrenzY-X-BENNY', info)
             break
         case '#snk':
 		if (isAfk) return await benny.reply(from, `Maaf ${pushname}, Kamu sedang afk! Ketik #unafk untuk mematikan`, id)
@@ -2851,21 +2868,22 @@ Total user premium : ${_premium.length}
             benny.reply(from, snk, id)
             break
 		case '#pc':
+        case '#pribadichat':
 		     if (!isRegistered) return await benny.reply(from, `Maaf *${pushname}!* Kamu Blum Login Di BOT Ini !!\nKamu Bisa Daftar Dengan Cara\n*#daftar <nama lo>*\n\nSetelah Login Kamu Akan Bisa Menikmati Fitur Dari *iFrenzYBOT !!*`, id)
              if (args.length == 0) return benny.reply(from, `Untuk Pribadi Chat, Silahkan ketik #pc [pesannya]`, id)
 			  arg = body.trim().split(' ')
 			  const poso = arg[1]
-			  benny.sendText(pengirim, `${poso}\n\nFrenzY X BOT`)
-			  await benny.reply(from, 'Silahkan cek pesan Bot', id)
+			  benny.sendText(pengirim, `*_${poso}_*\n\nMakasih Sudah Menggunakan Fitur PC :>`)
+			  await benny.reply(from, 'Pesan Anda Sudah Saya Kirim Ke Kontak Anda!\n\nGuna Fitur *#pc* Adalah Untuk Menghindari Spam!', id)
 			  break
-		case '#chat':
-		case '#chatdia':
+		case '#lacak':
+		case '#cari':
 		     if (!isRegistered) return await benny.reply(from, `Maaf *${pushname}!* Kamu Blum Login Di BOT Ini !!\nKamu Bisa Daftar Dengan Cara\n*#daftar <nama lo>*\n\nSetelah Login Kamu Akan Bisa Menikmati Fitur Dari *iFrenzYBOT !!*`, id)
-             if (args.length == 0) return benny.reply(from, `Untuk  Chat Dia, Silahkan ketik #chat [pesannya]`, id)
+             if (args.length == 0) return benny.reply(from, `Fitur Ini Masih Dalam Pengembangan!\nTunngu BOT Update *4.1.1* Yah!\n\nBOT NOW Version : *4.0.1*`, id)
 			  arg = body.trim().split(' ')
 			  const poson = arg[1]
 			  benny.sendText(mentionedJidList, `KAMU MENDAPATKAN PESAN ! DARI: [${pengirim}] \n${poson}`)
-			  await benny.reply(from, 'Berhasil chat dia', id)
+			  await benny.reply(from, 'Fitur Ini Masih Dalam Pengembangan!\nTunngu BOT Update *4.1.1* Yah!\n\nBOT NOW Version : *4.0.1*', id)
 			  break
 		case '#bhwhatsapp':
 		     if (!isRegistered) return await benny.reply(from, `Maaf *${pushname}!* Kamu Blum Login Di BOT Ini !!\nKamu Bisa Daftar Dengan Cara\n*#daftar <nama lo>*\n\nSetelah Login Kamu Akan Bisa Menikmati Fitur Dari *iFrenzYBOT !!*`, id)
@@ -2888,8 +2906,8 @@ Total user premium : ${_premium.length}
 			  benny.sendText(saya, `*[REPORT]* \nDARI: [wa.me/${pengirim}] \n${keluhan}`)
 			  await benny.reply(from, 'Terima Kasih atas laporannya', id)
 			  break
-		case 'iri':
-		case 'Iri':
+		case 'irii':
+		case 'loveyou':
 		    benny.sendPtt(from, './media/tts/iri.mp3', id)
 			break
 	    case '#wa.me':
@@ -2903,7 +2921,7 @@ Total user premium : ${_premium.length}
             break
 		}
     } catch (err) {
-        console.log(color('[ERROR]', 'red'), err)
+        console.log(color('[ADA YANG RUSAK !!]', 'blue'), err)
         //benny.kill().then(a => console.log(a))
     }
 }			
