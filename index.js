@@ -6,9 +6,23 @@ const options = require('./options')
 
 const start = async (client = new Client()) => {
         console.log(color('[SERVER] FrenzY X BOT Activated', 'yellow'))
+		console.log(color('[AUTHOR,DEVELOPER] FrenzY8', 'orange'))
+		console.log(color('[PLEASE] SUBSCRIBE TO FrenzY8', 'green'))
+		 		 console.log(color('[CODING] FrenzY8', 'blue'))
+				 console.log(color('[LOADING] 10%', 'blue'))
+				 console.log(color('[LOADING] 30%', 'blue'))
+				 console.log(color('[LOADING] 40%', 'blue'))
+				 console.log(color('[LOADING] 50%', 'blue'))
+				 console.log(color('[LOADING] 60%', 'blue'))
+				 console.log(color('[LOADING] 70%', 'blue'))
+				 console.log(color('[LOADING] 80%', 'blue'))
+				 console.log(color('[LOADING] 90%', 'blue'))
+				 console.log(color('[LOADING] 100%', 'blue'))
+				 console.log(color('[SUCCES] PROCESSED SUCCES', 'red'))
+				 console.log(color('[UP] BOT STATUS UP!', 'yellow'))
         // Force it to keep the current session
         client.onStateChanged((state) => {
-            console.log(color('[FrenzY-WARN]', 'blue'), state)
+            console.log(color('[FrenzY X WARNING !!]', 'red'), state)
             if (state === 'CONFLICT' || state === 'UNLAUNCHED') client.forceRefocus()
         })
         // listening on message
