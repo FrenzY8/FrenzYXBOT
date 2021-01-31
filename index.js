@@ -18,11 +18,19 @@ const start = async (client = new Client()) => {
 				 console.log(color('[LOADING] 80%', 'blue'))
 				 console.log(color('[LOADING] 90%', 'blue'))
 				 console.log(color('[LOADING] 100%', 'blue'))
+				 console.log(color('[LOADING] 200%', 'blue'))
+				 console.log(color('[LOADING] 300%', 'blue'))
+				 console.log(color('[LOADING] 400%', 'blue'))
+				 console.log(color('[LOADING] 500%', 'blue'))
+				 console.log(color('[LOADING] 700%', 'blue'))
+				 console.log(color('[LOADING] 800%', 'blue'))
+				 console.log(color('[LOADING] 900%', 'blue'))
+				 console.log(color('[LOADING] 1000%', 'blue'))
 				 console.log(color('[SUCCES] PROCESSED SUCCES', 'red'))
-				 console.log(color('[UP] BOT STATUS UP!', 'yellow'))
+				 console.log(color('[UP] BOT STATUS ONLINE !!', 'yellow'))
         // Force it to keep the current session
         client.onStateChanged((state) => {
-            console.log(color('[FrenzY X WARNING !!]', 'red'), state)
+            console.log(color('[Subscribe To FrenzY8!!]', 'red'), state)
             if (state === 'CONFLICT' || state === 'UNLAUNCHED') client.forceRefocus()
         })
         // listening on message
@@ -43,7 +51,7 @@ const start = async (client = new Client()) => {
 		
         client.onAddedToGroup(((chat) => {
             let totalMem = chat.groupMetadata.participants.length
-            if (totalMem < 100) { 
+            if (totalMem < 10) { 
             	client.sendText(chat.id, `Sebelumnya Saya Ingin Berterima Kasih Kpda Yang Invite BOT ini\nTetapi Karna Jumlah Member GRUP *${totalMem}* BOT Akan Keluar Otomatis! Max Member 100\n Jika Ingin BOT Masuk Ke Grup Anda Silakhan Private Chat Ke BOT!, `).then(() => client.leaveGroup(chat.id)).then(() => client.deleteChat(chat.id))
             } else {
                 client.sendText(chat.groupMetadata.id, `Halo warga grup *${chat.contact.name}* terimakasih sudah menginvite bot ini, untuk melihat menu silahkan kirim *#help*`)
