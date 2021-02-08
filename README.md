@@ -9,12 +9,8 @@
 <a href="#"><img title="FrenzY8" src="https://img.shields.io/badge/🏷 FrenzY8 MODS 🏷-blue?colorA=%000000&colorB=%ffffff&style=for-the-badge"></a>
 </a>
 <p align="center">
-<a href="#"><img title="BennyGanteng" src="https://img.shields.io/badge/⚜ Benny Hidayat ⚜-yellow?colorA=%000000&colorB=%ffffff&style=for-the-badge"></a>
-</p>
-<p align="center">
 <a href="https://github.com/FrenzY8"><img title="CREATOR :" src="https://img.shields.io/badge/DEVELOPER : -FrenzY8-blue.svg?style=for-the-badge&logo=github"></a>
 <p align="center">
-<a href="https://github.com/bennyganteng"><img title="CREDIT :" src="https://img.shields.io/badge/CREDIT : -BennyGanteng-yellow.svg?style=for-the-badge&logo=github"></a>
 </p>
 <p align="center">
 <a href="https://instagram.com/kenajaga.exe/followers"><img title="❤ FOLLOWERS ❤" src="https://img.shields.io/github/followers/mhankbarbar?color=yellow&style=flat-square"></a>
