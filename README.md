@@ -1,3 +1,7 @@
+# FrenzY X BOT
+</p>
+# © FrenzYSG 
+</p>
 <a href="https://github.com/FrenzY8"><img title="CREATOR :" src="https://img.shields.io/badge/NO WORK ON : -TERMUX-red.svg?style=for-the-badge&logo=github"></a>
 <a href="https://github.com/FrenzY8"><img title="CREATOR :" src="https://img.shields.io/badge/ONLY ON : -PC/RDP/LAPTOP-blue.svg?style=for-the-badge&logo=github"></a>
 <p align="center">
@@ -18,7 +22,7 @@
 <a href="https://github.com/MhankBarBar/whatsapp-bot/network/members"><img title="Forks" src="https://img.shields.io/github/forks/FrenzY8/iFrenzY-X-BENNY?color=red&style=flat-square"></a>
 <a href="https://github.com/MhankBarBar/whatsapp-bot"><img title="Watching" src="https://img.shields.io/github/watchers/mhankbarbar/whatsapp-bot?label=Watchers&color=blue&style=flat-square"></a>
 </p>
-<a href="https://youtube.com/FrenzY8"><img title="SUBSCRIBE :" src="https://img.shields.io/badge/SUBSCRIBE : -FrenzY8-yellow.svg?style=for-the-badge&logo=github"></a>
+<a href="https://youtube.com/channel/UCIj7_3jRVSHyryZXpox4uqw"><img title="SUBSCRIBE :" src="https://img.shields.io/badge/SUBSCRIBE : -FrenzY8-yellow.svg?style=for-the-badge&logo=github"></a>
 
 
 ## Get My Contact !! :
@@ -38,7 +42,7 @@
 ## Clone this project :
 
 ```bash
-> git clone https://github.com/bennyganteng/iFrenzY-X-BENNY.git
+> git clone https://github.com/FrenzY8/FrenzYSG-WhatsappBOT.git
 ```
 
 ## Permission Need:
