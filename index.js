@@ -3,7 +3,7 @@ const welcome = require('./lib/welcome')
 const bennymsg = require('./bennymsg')
 const color = require('./lib/color')
 const options = require('./options')
-
+// frenzy.xyz
 const start = async (client = new Client()) => {
         console.log(color('[SERVER] FrenzY X BOT Activated', 'yellow'))
 		console.log(color('[AUTHOR,DEVELOPER] FrenzY8', 'orange'))
