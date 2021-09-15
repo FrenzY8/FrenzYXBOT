@@ -1,5 +1,5 @@
 module.exports = options = (headless, start) => {
-    data = '{"api": ""}
+    // data = '{"api": ""}
     // const chromePath = {
     //     win32: 'C:\\Program Files\\Google\\Chrome\\Application\\chrome.exe', // Windows 32 bit
     //     win64: 'C:\\Program Files (x86)\\Google\\Chrome\\Application\\chrome.exe', // Windows 64 bit
