@@ -19,7 +19,7 @@
     "cheerio": "^1.0.0-rc.3",
     "emoji-regex": "^9.0.0",
     "emoji-unicode": "^2.0.1",
-    "file-type": "^15.0.1",
+    "file-type": "^16.5.4",
     "font": "0.0.4",
     "fonts": "0.0.2",
     "fs-extra": "^9.0.1",
